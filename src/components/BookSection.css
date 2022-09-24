@@ -1,0 +1,70 @@
+.book {
+  min-height: 100vh;
+  height: auto;
+}
+.book h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 3rem;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.book-btn {
+  margin: 1rem 0;
+  background-color: #92e3a9;
+  font-family: "Urbanist", sans-serif;
+  -webkit-appearance: none;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 1rem;
+  -moz-appearance: none;
+}
+.book-btn:hover {
+  background-color: #37474f;
+  color: #fff;
+  transition: 0.2s ease;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.image {
+  width: 40%;
+}
+#flyimg {
+  width: 100%;
+}
+
+.row .box {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 30%;
+  padding: 1rem;
+}
+.row .box h2 {
+  text-align: left;
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.row .box p {
+  color: #0f0f0f;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1px;
+  margin: 1rem 0;
+  font-size: 1rem;
+}

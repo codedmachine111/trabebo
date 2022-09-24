@@ -1,0 +1,62 @@
+.packages {
+  min-height: 100vh;
+  height: auto;
+}
+.packages h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.row1,
+.row2 {
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.morebtn {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-btn {
+  margin: 0.5rem 0;
+  background-color: #92e3a9;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 800;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 1.5rem;
+  -moz-appearance: none;
+}
+.more-btn:hover {
+  background-color: #37474f;
+  color: #fff;
+  transition: 0.2s ease;
+  font-weight: 500;
+}
+.outerbox {
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+.outerbox h2 {
+  padding: 2rem;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}

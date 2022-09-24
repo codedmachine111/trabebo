@@ -1,0 +1,21 @@
+.sbox input {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  border: 1px solid hsl(225, 10%, 45%);
+  border-radius: 15px;
+}
+.sb-container {
+  display: flex;
+  padding: 2rem;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.sbox {
+  width: 50%;
+}

@@ -1,0 +1,75 @@
+.card {
+  width: 20%;
+  height: auto;
+  color: hsl(229, 23%, 23%);
+  font-family: "Urbanist", sans-serif;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin: 1rem 0;
+}
+.card:hover {
+  transform: scale(105%);
+}
+.cont {
+  padding: 1.3rem;
+}
+
+#placeimg {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+#placeimg:hover {
+  transform: scale(120%);
+}
+.card .name {
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+.card .img {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 1rem;
+}
+.fa-map-marker-alt {
+  color: #92e3a9;
+}
+
+.fa-star {
+  color: #ffc727;
+}
+.card .abt {
+  letter-spacing: 1px;
+}
+.card .price {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+  color: hsl(225, 10%, 46%);
+}
+.card .stars {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.gobtn {
+  margin: 0.5rem 0;
+  background-color: #92e3a9;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 800;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 0.5rem;
+  -moz-appearance: none;
+}
+.gobtn:hover {
+  background-color: #37474f;
+  color: #fff;
+  transition: 0.2s ease;
+  font-weight: 500;
+}

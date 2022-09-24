@@ -1,0 +1,127 @@
+.home {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  z-index: 1;
+}
+.home .content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  box-shadow: 0 8px 39px 17px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+.home .content h3 {
+  color: #fff;
+  text-shadow: 3px 3px rgb(199 200 205 / 37%);
+  /* text-shadow: 2px 2px 4px #0f0f0f; */
+  font-size: 4.5rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+.home .content p {
+  color: #fff;
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px rgb(199 200 205 / 37%);
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.home .video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.home .controls {
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 10%;
+  position: relative;
+}
+.home .controls .vid-btn {
+  height: 0.7rem;
+  width: 0.7rem;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.home .controls .vid-btn.active {
+  background: #92e3a9;
+}
+
+.info {
+  top: 90%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 1rem;
+  color: #fff;
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  justify-content: space-around;
+  font-family: "Urbanist", sans-serif;
+  position: absolute;
+}
+.info .mail, .info .call, .info .socialm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.info .mail p a,
+.info .call p a,
+.info .socialm p {
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+.info .mail p a:hover,
+.info .call p a:hover,
+.info .socialm p:hover {
+  color: #4f5bd5;
+}
+#ficons {
+  color: #92e3a9;
+}
+
+.exp-btn {
+  margin: 1rem 0;
+  background-color: #92e3a9;
+  font-family: "Urbanist", sans-serif;
+  -webkit-appearance: none;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 1rem;
+  -moz-appearance: none;
+}
+.exp-btn:hover {
+  background-color: #37474f;
+  color: #fff;
+  transition: 0.2s ease;
+}
+#diff{
+  color: #92e3a9;
+
+}

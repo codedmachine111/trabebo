@@ -1,0 +1,22 @@
+.servcard {
+  padding: 2rem;
+  width: 30%;
+  color: hsl(229, 23%, 23%);
+  font-family: "Urbanist", sans-serif;
+}
+.servcard .img {
+  font-size: 2rem;
+  width: 100%;
+  color: #92e3a9;
+  text-align: center;
+}
+.servcard .serv-name {
+  width: 100%;
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.servcard .txt p {
+  text-align: center;
+}

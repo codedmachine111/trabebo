@@ -1,0 +1,59 @@
+form {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 30%;
+    padding: 3rem;
+  }
+
+  #email {
+    text-transform: lowercase;
+  }
+  .inputbox {
+    margin: 1rem 0;
+  }
+  .inputbox h3 {
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 0.2rem;
+    letter-spacing: 1px;
+  }
+  .inputbox input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: "Urbanist", sans-serif;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    border: 1px solid hsl(225, 10%, 45%);
+    text-transform: capitalize;
+  }
+  .inputbox select {
+    width: 100%;
+    font-size: 1rem;
+    -moz-appearance: none;
+    font-family: "Urbanist", sans-serif;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    border: 1px solid hsl(225, 10%, 45%);
+    text-transform: capitalize;
+  }
+  .subbtn {
+    margin: 0.5rem 0;
+    background-color: #92e3a9;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 1rem;
+    -moz-appearance: none;
+  }
+  .subbtn:hover {
+    background-color: #37474f;
+    color: #fff;
+    transition: 0.2s ease;
+  }
