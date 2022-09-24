@@ -10,6 +10,11 @@ import { Book } from "./pages/Book";
 import { Dubai } from "./pages/locations/Dubai/Dubai";
 import { Himachal } from "./pages/locations/Himachal/Himachal";
 import {Goa} from "./pages/locations/Goa/Goa"
+import {Maldives} from "./pages/locations/Maldives/Maldives"
+import { Thailand } from "./pages/locations/Thailand/Thailand";
+import { Rajasthan } from "./pages/locations/Rajasthan/Rajasthan";
+
+
 function App() {
 
   return (
@@ -24,6 +29,10 @@ function App() {
               <Route path="/locations/dubai" element={<Dubai/>}/>
               <Route path="/locations/himachal" element={<Himachal/>}/>
               <Route path="/locations/goa" element={<Goa/>}/>
+              <Route path="/locations/maldives" element={<Maldives/>}/>
+              <Route path="/locations/thailand" element={<Thailand/>}/>
+              <Route path="/locations/rajasthan" element={<Rajasthan/>}/>
+
               <Route path="*" element={<div>Page not found</div>}/>
             </Routes>
             <Footer/>

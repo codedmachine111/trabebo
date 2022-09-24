@@ -11,8 +11,8 @@
     display: flex;
     justify-content: center;
     flex-flow: column;
+    background-image: url(../../../media/thailand/thailandbg.jpg);
     z-index: 1;
-    background-image: url(../../../media/goa/goabg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
