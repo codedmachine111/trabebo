@@ -5,11 +5,11 @@ export const Searchbox = (props) => {
     <>
       <div className="sb-container">
         <div className="sbox">
-          {/* <i className="fa fa-magnifying-glass"></i> */}
+          {/* <i className="fas fa-magnifying-glass"></i> */}
           {/* <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" /> */}
           <input
             type="search"
-            placeholder="Search destination"
+            placeholder="Search your destination"
             onChange={props.handleOnChange}
           />
         </div>

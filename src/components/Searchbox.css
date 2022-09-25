@@ -4,9 +4,10 @@
   -moz-appearance: none;
   font-family: "Urbanist", sans-serif;
   letter-spacing: 1px;
-  padding: 0.5rem;
+  padding: 1rem;
   border: 1px solid hsl(225, 10%, 45%);
-  border-radius: 15px;
+  border-radius: 2rem;
+  background-color: rgb(231, 231, 231);
 }
 .sb-container {
   display: flex;

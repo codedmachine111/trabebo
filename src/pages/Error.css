@@ -1,24 +1,22 @@
-.row {
+.e-container {
+  min-height: 85vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5%;
-  padding: 1rem;
 }
-#cap {
-  text-transform: uppercase;
+.e-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.img {
-  width: 50%;
-}
-#contactimg {
-  width: 100%;
-  height: 100%;
+#error-img {
+  width: 20%;
 }
 
-.contact h2 {
+.e-message h1 {
   text-align: center;
-  margin: 2rem 0;
   font-size: 3rem;
   font-weight: 300;
   word-spacing: 5px;
@@ -27,14 +25,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.book-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-
-.book-info p{
+.e-message p {
   font-family: "Urbanist", sans-serif;
   letter-spacing: 1px;
 }

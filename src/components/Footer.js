@@ -1,5 +1,5 @@
 import "./Footer.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const branchLoc =
@@ -42,10 +42,7 @@ export const Footer = () => {
                 <Link to="/book">Book</Link>
               </li>
               <li>
-                <Link to="/packages">Packages</Link>
-              </li>
-              <li>
-                <Link to="#service">Services</Link>
+                <Link to="/locations">Locations</Link>
               </li>
               <li>
                 <Link to="/contact">Contact</Link>

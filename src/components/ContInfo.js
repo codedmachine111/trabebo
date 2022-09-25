@@ -10,7 +10,7 @@ export const ContInfo = () => {
           <h1>Get in touch with us.</h1>
           <div className="rowlast">
             <div className="contimg">
-              <img src={contact} id="contimg" alt="Contact"/>
+              <img src={contact} id="contimg" alt="Contact" />
             </div>
 
             <div className="box">

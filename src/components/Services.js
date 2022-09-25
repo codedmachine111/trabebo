@@ -40,7 +40,7 @@ export const Services = () => {
   return (
     <>
       <div class="container4">
-        <section class="service" id="service">
+        <section class="service" id="services">
           <h1>Have a look at our services!</h1>
           <div class="row2">
             {serviceInfoRow1.map((element) => {

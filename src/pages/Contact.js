@@ -1,6 +1,6 @@
 import Form from "../components/Form";
-import contactbg from '../media/contactus.png'
-import './Contact.css'
+import contactbg from "../media/contactus.png";
+import "./Contact.css";
 
 export const Contact = () => {
   return (
@@ -15,7 +15,7 @@ export const Contact = () => {
         </section>
         <div class="row">
           <div class="img">
-            <img src={contactbg} id="contactimg" alt={""}/>
+            <img src={contactbg} id="contactimg" alt={""} />
           </div>
           <Form />
         </div>
