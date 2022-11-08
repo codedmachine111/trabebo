@@ -61,7 +61,7 @@ export const Footer = () => {
               </li>
               <li>
                 <Link to="/" id="facebook">
-                  <i className="fab fa-facebook"></i>
+                  <i className="fas fa-envelop"></i>
                 </Link>
               </li>
               <li>
