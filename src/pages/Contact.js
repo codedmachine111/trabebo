@@ -5,16 +5,16 @@ import "./Contact.css";
 export const Contact = () => {
   return (
     <>
-      <section class="contact" id="contact">
+      <section className="contact" id="contact">
         <h2>
           Contact us for ticket bookings
           <hr />
         </h2>
-        <section class="how" id="how">
-          <div class="contbox"></div>
+        <section className="how" id="how">
+          <div className="contbox"></div>
         </section>
-        <div class="row">
-          <div class="img">
+        <div className="row">
+          <div className="img">
             <img src={contactbg} id="contactimg" alt={""} />
           </div>
           <Form />
@@ -22,14 +22,14 @@ export const Contact = () => {
       </section>
       <hr id="line" />
 
-      <div class="callbox">
-        <i class="fas fa-phone"></i> +91-7654772728
+      <div className="callbox">
+        <i className="fas fa-phone"></i> +91-7654772728
       </div>
-      <div class="callbox">
-        <i class="fas fa-briefcase"></i> 0836-5556765
+      <div className="callbox">
+        <i className="fas fa-briefcase"></i> 0836-5556765
       </div>
-      <div class="callbox">
-        <i class="fas fa-envelope"></i> info.trabebo@gmail.com
+      <div className="callbox">
+        <i className="fas fa-envelope"></i> info.trabebo@gmail.com
       </div>
     </>
   );

@@ -38,3 +38,15 @@
   font-family: "Urbanist", sans-serif;
   letter-spacing: 1px;
 }
+
+@media only screen and (max-width: 600px){
+  .row{
+    flex-direction: column;
+  }
+  .row .image{
+    width: 50%;
+  }
+  .row .box{
+    width: 50%;
+  }
+}

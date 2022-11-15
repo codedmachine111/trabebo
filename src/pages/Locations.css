@@ -28,3 +28,16 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 600px){
+  .row1,
+  .row2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .row1 .card,
+  .row2 .card {
+    width: 55%;
+  }
+}

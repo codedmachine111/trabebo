@@ -24,12 +24,12 @@ export const BookForm = () => {
   };
   return (
     <>
-      <form class="form" onSubmit={handleOnSubmit}>
-        <div class="inputbox">
+      <form className="form" onSubmit={handleOnSubmit}>
+        <div className="inputbox">
           <h3>Your Name*</h3>
           <input type="text" placeholder="Name" required name="name" />
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
           <h3>Email Address*</h3>
           <input
             type="email"
@@ -40,7 +40,7 @@ export const BookForm = () => {
             name="email"
           />
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
           <h3>Contact Number*</h3>
           <input
             type="tel"
@@ -51,7 +51,7 @@ export const BookForm = () => {
             name="contact"
           />
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
           <h3>Enter Your destination*</h3>
           <input
             type="text"
@@ -61,7 +61,7 @@ export const BookForm = () => {
           />
         </div>
 
-        <div class="inputbox">
+        <div className="inputbox">
           <h3>Enter the number of people</h3>
           <input
             type="number"
@@ -72,16 +72,16 @@ export const BookForm = () => {
             name="people"
           />
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
           <h3>Arrival</h3>
           <input type="date" id="cap" required name="arrival" />
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
           <h3>Departure</h3>
           <input type="date" id="cap" required name="dept" />
         </div>
-        <div class="sub-btn">
-          <button type="submit" class="subbtn">
+        <div className="sub-btn">
+          <button type="submit" className="subbtn">
             Book now
           </button>
         </div>

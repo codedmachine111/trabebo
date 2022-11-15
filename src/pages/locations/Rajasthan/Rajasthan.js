@@ -41,7 +41,7 @@ export const Rajasthan=()=>{
       ];
     return(
         <>
-            <div class="t-container">
+            <div className="t-container">
         {placeInfo.map((place) => {
           return (
             <TravelCard
@@ -53,15 +53,15 @@ export const Rajasthan=()=>{
         })}
       </div>
 
-      <div class="t-info">
+      <div className="t-info">
         <h2>
           <span id="diff">E</span>verything you need to know
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+        <div className="t-row">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="diff">S</span>tart Planning Your Trip!
                   <hr />
@@ -74,33 +74,33 @@ export const Rajasthan=()=>{
               </div>
             </div>
           </div>
-          <div class="images module">
-            <div class="img1">
+          <div className="images module">
+            <div className="img1">
               <img src={RajasthanImages.d1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={RajasthanImages.d2} alt={""} id="port2" />
             </div>
           </div>
         </div>
         <hr id="line" />
-        <h2 class="heading" id="cultures">
+        <h2 className="heading" id="cultures">
           <span id="fdiff">C</span>ultures
           <hr />
         </h2>
 
-        <div class="t-row">
-          <div class="images module">
-            <div class="img1">
+        <div className="t-row">
+          <div className="images module">
+            <div className="img1">
               <img src={RajasthanImages.dc1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={RajasthanImages.dc2} alt={""} id="port2" />
             </div>
           </div>
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">D</span>iscover new cultures
                   <hr />
@@ -122,14 +122,14 @@ export const Rajasthan=()=>{
         </div>
         <hr id="line" />
 
-        <h2 class="heading" id="beaches">
+        <h2 className="heading" id="beaches">
           <span id="fdiff">F</span>amous
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+        <div className="t-row">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">B</span>est beaches to visit
                   <hr />
@@ -142,32 +142,32 @@ export const Rajasthan=()=>{
               </div>
             </div>
           </div>
-          <div class="images module">
-            <div class="img1">
+          <div className="images module">
+            <div className="img1">
               <img src={RajasthanImages.db1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={RajasthanImages.db2} alt={""} id="port2" />
             </div>
           </div>
         </div>
         <hr id="line" />
-        <h2 class="heading" id="hotels">
+        <h2 className="heading" id="hotels">
           <span id="fdiff">F</span>ood
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="images module">
-            <div class="img1">
+        <div className="t-row">
+          <div className="images module">
+            <div className="img1">
               <img src={RajasthanImages.dh1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={RajasthanImages.dh2} alt={""} id="port2" />
             </div>
           </div>
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">I</span>nteresting foods to try 
                   <hr />
@@ -183,14 +183,14 @@ export const Rajasthan=()=>{
         </div>
         <hr id="line" />
 
-        <h2 class="heading" id="indubai">
+        <h2 className="heading" id="indubai">
           <span id="fdiff">O</span>nly in Rajasthan
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+        <div className="t-row">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">I</span>nteresting things to do
                   <hr />
@@ -203,24 +203,24 @@ export const Rajasthan=()=>{
               </div>
             </div>
           </div>
-          <div class="images module">
-            <div class="img1">
+          <div className="images module">
+            <div className="img1">
               <img src={RajasthanImages.do1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={RajasthanImages.do2} alt={""} id="port2" />
             </div>
           </div>
         </div>
         <hr id="line" />
 
-        <div class="more">
-          <h2 class="heading">
+        <div className="more">
+          <h2 className="heading">
             What's included
             <hr id="line" />
           </h2>
 
-          <div class="cont">
+          <div className="cont">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, asperiores.
@@ -247,11 +247,11 @@ export const Rajasthan=()=>{
         </div>
       </div>
       <hr id="line" />
-      <div class="container3" id="packages">
-        <section class="packages">
+      <div className="container3" id="packages">
+        <section className="packages">
           <h2>Best deals for you</h2>
-          <div class="outerbox">
-            <div class="row1">
+          <div className="outerbox">
+            <div className="row1">
               {packageInfo.map((pack) => {
                 return (
                   <PackCard
@@ -268,15 +268,15 @@ export const Rajasthan=()=>{
       </div>
       <hr id="line" />
 
-      <div class="container5" id="contact">
-        <section class="t-contact">
+      <div className="container5" id="contact">
+        <section className="t-contact">
           <h1>Book Your tickets</h1>
-          <div class="rowlast">
-            <div class="contimg">
+          <div className="rowlast">
+            <div className="contimg">
               <img src={contactimg} alt={""} id="contimg" />
             </div>
 
-            <div class="box">
+            <div className="box">
               <h2>
                 Book your tickets
                 <hr />
@@ -286,8 +286,8 @@ export const Rajasthan=()=>{
                 One step away from booking your trip! What are you waiting for?
               </p>
               <Link to="/book">
-                <div class="btn">
-                  <button class="book-btn">Book now</button>
+                <div className="btn">
+                  <button className="book-btn">Book now</button>
                 </div>
               </Link>
             </div>

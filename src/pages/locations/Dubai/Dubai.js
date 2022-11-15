@@ -40,7 +40,7 @@ export const Dubai = () => {
   ];
   return (
     <>
-      <div class="t-container">
+      <div className="t-container">
         {placeInfo.map((place) => {
           return (
             <TravelCard
@@ -52,15 +52,15 @@ export const Dubai = () => {
         })}
       </div>
 
-      <div class="t-info">
+      <div className="t-info">
         <h2>
           <span id="diff">E</span>verything you need to know
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+        <div className="t-row">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="diff">S</span>tart Planning Your Trip!
                   <hr />
@@ -73,33 +73,33 @@ export const Dubai = () => {
               </div>
             </div>
           </div>
-          <div class="images module">
-            <div class="img1">
+          <div className="images module">
+            <div className="img1">
               <img src={DubaiImages.d1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={DubaiImages.d2} alt={""} id="port2" />
             </div>
           </div>
         </div>
         <hr id="line" />
-        <h2 class="heading" id="cultures">
+        <h2 className="heading" id="cultures">
           <span id="fdiff">C</span>ultures
           <hr />
         </h2>
 
-        <div class="t-row">
-          <div class="images module">
-            <div class="img1">
+        <div className="t-row">
+          <div className="images module">
+            <div className="img1">
               <img src={DubaiImages.dc1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={DubaiImages.dc2} alt={""} id="port2" />
             </div>
           </div>
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">B</span>est Cultures
                   <hr />
@@ -121,14 +121,14 @@ export const Dubai = () => {
         </div>
         <hr id="line" />
 
-        <h2 class="heading" id="beaches">
+        <h2 className="heading" id="beaches">
           <span id="fdiff">B</span>eaches
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+        <div className="t-row">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">B</span>est beaches to visit
                   <hr />
@@ -141,32 +141,32 @@ export const Dubai = () => {
               </div>
             </div>
           </div>
-          <div class="images module">
-            <div class="img1">
+          <div className="images module">
+            <div className="img1">
               <img src={DubaiImages.db1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={DubaiImages.db2} alt={""} id="port2" />
             </div>
           </div>
         </div>
         <hr id="line" />
-        <h2 class="heading" id="hotels">
+        <h2 className="heading" id="hotels">
           <span id="fdiff">H</span>otels
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="images module">
-            <div class="img1">
+        <div className="t-row">
+          <div className="images module">
+            <div className="img1">
               <img src={DubaiImages.dh1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={DubaiImages.dh2} alt={""} id="port2" />
             </div>
           </div>
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">T</span>op hotels for you
                   <hr />
@@ -182,14 +182,14 @@ export const Dubai = () => {
         </div>
         <hr id="line" />
 
-        <h2 class="heading" id="indubai">
+        <h2 className="heading" id="indubai">
           <span id="fdiff">O</span>nly in Dubai
           <hr />
         </h2>
-        <div class="t-row">
-          <div class="infobox module">
-            <div class="box">
-              <div class="title">
+        <div className="t-row">
+          <div className="infobox module">
+            <div className="box">
+              <div className="title">
                 <h2>
                   <span id="fdiff">I</span>nteresting things to do
                   <hr />
@@ -202,24 +202,24 @@ export const Dubai = () => {
               </div>
             </div>
           </div>
-          <div class="images module">
-            <div class="img1">
+          <div className="images module">
+            <div className="img1">
               <img src={DubaiImages.do1} alt={""} id="port1" />
             </div>
-            <div class="img2">
+            <div className="img2">
               <img src={DubaiImages.do2} alt={""} id="port2" />
             </div>
           </div>
         </div>
         <hr id="line" />
 
-        <div class="more">
-          <h2 class="heading">
+        <div className="more">
+          <h2 className="heading">
             What's included
             <hr id="line" />
           </h2>
 
-          <div class="cont">
+          <div className="cont">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Adipisci, asperiores.
@@ -246,11 +246,11 @@ export const Dubai = () => {
         </div>
       </div>
       <hr id="line" />
-      <div class="container3" id="packages">
-        <section class="packages">
+      <div className="container3" id="packages">
+        <section className="packages">
           <h2>Best deals for you</h2>
-          <div class="outerbox">
-            <div class="row1">
+          <div className="outerbox">
+            <div className="row1">
               {packageInfo.map((pack) => {
                 return (
                   <PackCard
@@ -267,15 +267,15 @@ export const Dubai = () => {
       </div>
       <hr id="line" />
 
-      <div class="container5" id="contact">
-        <section class="t-contact">
+      <div className="container5" id="contact">
+        <section className="t-contact">
           <h1>Book Your tickets</h1>
-          <div class="rowlast">
-            <div class="contimg">
+          <div className="rowlast">
+            <div className="contimg">
               <img src={contactimg} alt={""} id="contimg" />
             </div>
 
-            <div class="box">
+            <div className="box">
               <h2>
                 Book your tickets
                 <hr />
@@ -285,8 +285,8 @@ export const Dubai = () => {
                 One step away from booking your trip! What are you waiting for?
               </p>
               <Link to="/book">
-                <div class="btn">
-                  <button class="book-btn">Book now</button>
+                <div className="btn">
+                  <button className="book-btn">Book now</button>
                 </div>
               </Link>
             </div>

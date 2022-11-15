@@ -21,3 +21,16 @@
 .service {
   height: auto;
 }
+@media only screen and (max-width: 600px){
+  .row1,
+  .row2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .row1 .servcard,
+  .row2 .servcard {
+    width: 55%;
+  }
+}

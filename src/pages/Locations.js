@@ -124,7 +124,7 @@ export const Locations = () => {
   };
   return (
     <>
-      <section class="packages">
+      <section className="packages">
         <div className="package-container">
           <h2>
             All Locations

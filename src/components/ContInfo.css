@@ -70,3 +70,20 @@
 #contimg {
   width: 100%;
 }
+@media only screen and (max-width: 600px){
+    .rowlast{
+        flex-direction: column;
+    }
+    .contimg{
+        width: 100%;
+    }
+    .rowlast .box{
+        width: 55%;
+    }
+    .rowlast .box h2{
+        font-size: 1.5rem;
+    }
+    .cont-btn{
+        width: 100%;
+    }
+}

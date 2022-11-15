@@ -39,10 +39,10 @@ export const Services = () => {
 
   return (
     <>
-      <div class="container4">
-        <section class="service" id="services">
+      <div className="container4">
+        <section className="service" id="services">
           <h1>Have a look at our services!</h1>
-          <div class="row2">
+          <div className="row2">
             {serviceInfoRow1.map((element) => {
               return (
                 <ServiceCard
@@ -53,7 +53,7 @@ export const Services = () => {
               );
             })}
           </div>
-          <div class="row1">
+          <div className="row1">
             {serviceInfoRow2.map((element) => {
               return (
                 <ServiceCard

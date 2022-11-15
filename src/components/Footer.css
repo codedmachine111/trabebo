@@ -110,3 +110,41 @@
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 600px){
+  .aboutus,
+  .branch,
+  .quicklinks,
+  .follow {
+    width: 100%;
+    text-align: left;
+  }
+  .follow ul{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .aboutus h2,
+  .branch h2,
+  .quicklinks h2,
+  .follow h2 {
+    font-size: 1.2rem;
+  }
+  .aboutus p,
+  .branch p {
+    font-size: 1rem;
+  }
+  .quicklinks ul li a {
+    font-size: 1rem;
+  }
+  .follow ul li a {
+    font-size: 1rem;
+  }
+  .fbox {
+    flex-direction: column;
+  }
+  .footer hr {
+    width: 100%;
+  }
+  .branch #map{
+    width: 55%;
+  }
+}

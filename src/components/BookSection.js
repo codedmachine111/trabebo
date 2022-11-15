@@ -21,8 +21,8 @@ export const BookSection = () => {
               </h2>
               <p>One step away from your trip! What are you waiting for?</p>
               <Link to="/contact">
-                <div class="btn">
-                  <button class="book-btn">Book now</button>
+                <div className="btn">
+                  <button className="book-btn">Book now</button>
                 </div>
               </Link>
             </div>

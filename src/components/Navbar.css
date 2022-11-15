@@ -105,6 +105,9 @@ nav ul li:hover > ul {
   content: "\f0c9";
 }
 @media all and (max-width: 880px) {
+  nav{
+    height: 10vh;
+  }
   .checkbtn {
     display: block;
   }
@@ -118,20 +121,18 @@ nav ul li:hover > ul {
     display: none;
     opacity: 0;
   }
-  ul {
-    margin-top: 20px;
-    position: absolute;
-    height: 85vh;
-    z-index: 120;
-    background: #1b1b1b;
-    top: 12%;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
+
   .list {
     display: block;
     width: 100%;
+    position: absolute;
+    z-index: 120;
+    background: #1b1b1b;
+    top: 10vh;
+    height: 90vh;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s; 
   }
 
   .list li {
